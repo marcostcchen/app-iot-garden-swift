@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+enum Status: String, CaseIterable, Codable, Hashable {
+    case stable = "Stable"
+    case warning = "Warning"
+    case danger = "Danger"
+}
